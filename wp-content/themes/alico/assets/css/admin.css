@@ -1,0 +1,169 @@
+/**
+ * Theme Option
+ */
+ body .redux-container {
+ 	overflow: visible;
+ }
+ .redux-sidebar .redux-logo-main img {
+ 	max-height: 60px;
+ }
+ .redux-logo-main {
+ 	opacity: 1;
+ }
+ .meta-box-sortables .redux-container {
+ 	overflow: visible;
+ }
+ #redux-header {
+ 	display: none !important;
+ }
+.redux-main .wp-picker-container {
+    display: inline-block;
+}
+.redux-main .color-transparency-check {
+    display: inline-block;
+    margin: 6px 0 !important;
+}
+.redux-sidebar .redux-group-menu li.active > a, .redux-sidebar .redux-group-menu li:hover > a {
+    background-color: #09a223 !important;
+    color: #fff !important;
+}
+.redux-container .redux-group-tab > h2 {
+	padding: 0 !important;
+	margin-bottom: 10px !important;
+}
+.redux-container .redux-group-tab .redux-section-desc {
+	font-style: italic
+}
+.wp-admin.admin-color-fresh .redux-container-switch .cb-enable.selected, 
+.wp-admin.admin-color-fresh .redux-field-container .ui-buttonset .ui-state-active, 
+.wp-admin.wp-customizer .redux-container-switch .cb-enable.selected, 
+.wp-admin.wp-customizer .redux-field-container .ui-buttonset .ui-state-active {
+	background-color: #09a223 !important;
+	background-image: none !important;
+	border-color: #09a223 !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+}
+
+.redux-container-image_select ul.redux-image-select {
+	margin: 0 -15px !important;
+}
+.redux-container-image_select ul.redux-image-select li {
+	padding: 0 15px !important;
+	margin: 0 0 30px !important;
+}
+#ct_theme_options-all_careers_page ul.redux-image-select,
+#ct_theme_options-single_post_layout ul.redux-image-select,
+#ct_theme_options-singe_service_layout ul.redux-image-select,
+#ct_theme_options-singe_portfolio_layout ul.redux-image-select {
+	display: flex;
+	display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.wp-admin.admin-color-fresh .redux-container-image_select .redux-image-select-selected img, 
+.wp-admin.wp-customizer .redux-container-image_select .redux-image-select-selected img {
+	border-color: #09a223 !important;
+	box-shadow: 0 1px 6px #09a223 !important;
+	-webkit-box-shadow: 0 1px 6px #09a223 !important;
+	-ms-box-shadow: 0 1px 6px #09a223 !important;
+}
+.redux-container-color .wp-picker-container {
+	display: inline-block;
+}
+.redux-container-color .color-transparency-check {
+	display: inline-block;
+    margin: 5px 0;
+}
+.term-php .form-field {
+	display: table-row !important;
+}
+.redux-container .redux-container-context-side .redux-main {
+	padding: 20px !important;
+}
+.redux-container .redux-container-media img {
+	max-width: 200px !important;
+	margin-bottom: 10px !important;
+}
+.vc_edit_form_elements .vc_column {
+	padding-top: 30px !important;
+}
+.panel-primary > .panel-heading {
+	background-image: none !important;
+	background-color: #09a223 !important;
+}
+.description.field-desc {
+	font-style: italic;
+    opacity: 0.4;
+}
+.post-type-post .redux-container .redux-main {
+	min-height: auto;
+}
+.post-type-post .redux-container .redux-sidebar {
+	display: none;
+}
+.wp-admin [id*="mymetabox_revslider_"], .wp-admin [id^="mymetabox_revslider_"] {
+	display: none;
+}
+
+.ct-dashboard-item i.dashicon {
+	background-color: #09a223;
+}
+.ct-dashboard-item a {
+	background-color: #09a223;
+}
+.ct-dashboard-item a:hover, .ct-dashboard-item a:focus {
+	background-color: #920cff;
+}
+.ct-dashboard-ticket a {
+	border-color: #09a223;
+}
+.ct-dashboard-ticket a:hover, .ct-dashboard-ticket a:focus {
+	color: #09a223;
+}
+.vc_el-container [id*='ct_'] .vc_element-icon, .vc_el-container [id^='ct_'] .vc_element-icon {
+	background-image: url('../images/el-icon.png');
+	background-color: transparent;
+	background-position: center;
+}
+
+.wp-core-ui .ct-ie-dashboard .button {
+	background-color: #09a223;
+	border-color: #09a223;
+	box-shadow: 0 1px 0 #09a223;
+	-webkit-box-shadow: 0 1px 0 #09a223;
+	-ms-box-shadow: 0 1px 0 #09a223;
+}
+.ct-import-contains .ct-ie-image::before {
+	background-color: rgba(0, 0, 0, 0.67);
+}
+.video-tutorial .dash-deactivate {
+	display: none;
+}
+.alicoe_page_theme-options .error.redux-message, .alicoe_page_theme-options .updated.redux-notice,
+.alicoe-child_page_theme-options .error.redux-message, .alicoe-child_page_theme-options .updated.redux-notice,
+.gwp-live-feed-contents.notice.gwp-notice-pro, .ct-delete-demo.button {
+	display: none !important;
+}
+.vc_edit_form_elements .vc_ui-flex-row .vc_col-sm-1\/5 {
+	width: 20%;
+}
+.vc_edit-form-tab.vc_row .ct-col-5 {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 20%;
+	box-sizing: border-box;
+}
+.redux-main .ui-button-text-only .ui-button-text {
+	padding: 0;
+}
+.plugin-title .go_pro {
+	display: none
+}
+#revslider-update .update-message {
+	display: none
+}
+[data-slug="redux-framework"] .plugin-version-author-uri span {
+	display: none !important;
+}

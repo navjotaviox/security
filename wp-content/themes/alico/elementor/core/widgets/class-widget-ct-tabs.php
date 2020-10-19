@@ -1,0 +1,11 @@
+<?php
+
+class CT_CtTabs_Widget extends Case_Theme_Core_Widget_Base{
+    protected $name = 'ct_tabs';
+    protected $title = 'Tabs';
+    protected $icon = 'eicon-tabs';
+    protected $categories = array( 'case-theme-core' );
+    protected $params = '{"sections":[{"name":"section_tabs","label":"Tabs","tab":"content","controls":[{"name":"style","label":"Style","type":"select","options":{"style1":"Style 1","style2":"Style 2","style3":"Style 3","style4":"Style 4 (Dark)"},"default":"style1"},{"name":"active_tab","label":"Active Tab","type":"number","default":1,"separator":"after"},{"name":"tabs","label":"Tabs Items","type":"repeater","controls":[{"name":"ct_icon","label":"Icon","type":"icons","fa4compatibility":"icon"},{"name":"tab_title","label":"Title","type":"text","default":"Tab Title","placeholder":"Tab Title","label_block":true},{"name":"content_type","label":"Content Type","type":"select","default":"text_editor","options":{"text_editor":"Text Editor","template":"Template","form":"Contact Form 7"}},{"name":"tab_content","label":"Content","type":"wysiwyg","default":"Tab Content","placeholder":"Tab Content","show_label":false,"condition":{"content_type":"text_editor"}},{"name":"tab_content_template","label":"Template","type":"select","default":"","options":{"":"Select Template","3385":"Default Kit","3109":"Footer Home 2","3031":"Home 5","3016":"Footer 4","2977":"Section Contact Form","2910":"Section Offer","2851":"Footer Default","2684":"Default Kit","2050":"Tab 03","2047":"Tab 02","2036":"Tab 01"},"condition":{"content_type":"template"}},{"name":"form_id","label":"Select Contact Form 7","type":"select","options":{"6":"Contact form 1","3274":"Get a quote","2529":"Tab Form","1930":"Business Insurance Form","1929":"Life Insurance Form","1928":"Vehicles Insurance Form","1924":"Budget Form","1913":"FAQ Contact Form","3340":"Main Contact Form"},"condition":{"content_type":"form"}}],"title_field":"{{{ tab_title }}}"}]}]}';
+    protected $styles = array(  );
+    protected $scripts = array( 'ct-tabs-widget-js' );
+}

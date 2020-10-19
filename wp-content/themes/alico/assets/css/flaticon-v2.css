@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Flaticon-v2";
+  src: url("../fonts/Flaticon-v2.eot");
+  src: url("../fonts/Flaticon-v2.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon-v2.woff2") format("woff2"),
+       url("../fonts/Flaticon-v2.woff") format("woff"),
+       url("../fonts/Flaticon-v2.ttf") format("truetype"),
+       url("../fonts/Flaticon-v2.svg#Flaticon-v2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: Flaticon-v2 !important;
+    src: url("../fonts/Flaticon-v2.svg#Flaticon-v2") format("svg");
+  }
+}
+
+[class^="flaticon-v2-"]:before, [class*=" flaticon-v2-"]:before,
+[class^="flaticon-v2-"]:after, [class*=" flaticon-v2-"]:after {   
+  font-family: Flaticon-v2 !important;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.flaticon-v2-right:before { content: "\f100"; }
+.flaticon-v2-chat:before { content: "\f101"; }
+.flaticon-v2-nailed:before { content: "\f102"; }
+.flaticon-v2-bank:before { content: "\f103"; }
+.flaticon-v2-life-buoy:before { content: "\f104"; }
+.flaticon-v2-car:before { content: "\f105"; }
+.flaticon-v2-insurance:before { content: "\f106"; }
+.flaticon-v2-life-insurance:before { content: "\f107"; }
+.flaticon-v2-insurance-1:before { content: "\f108"; }
+.flaticon-v2-medical-insurance:before { content: "\f109"; }
+.flaticon-v2-insurance-2:before { content: "\f10a"; }
+.flaticon-v2-insurance-3:before { content: "\f10b"; }
+.flaticon-v2-protection:before { content: "\f10c"; }
+.flaticon-v2-mail:before { content: "\f10d"; }
